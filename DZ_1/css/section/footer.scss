@@ -1,0 +1,95 @@
+/*Footer*/
+
+.footer {
+	background-color: $blue-blue;
+}
+
+.contacts__items {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.contacts__title {
+	text-align: center;
+	color: $white;
+	padding: 50px 0 29px;
+}
+
+textarea,
+input[type="text"] {
+	display: block;
+	background-color: $white;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-family: $font-arial;
+	color: $blue-blue;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 21px;
+}
+
+input[type="text"] {
+	width: 500px;
+	height: 40px;
+}
+
+textarea {
+	resize: none;
+	width: 500px;
+	height: 170px;
+}
+
+.button__contacts {
+	outline: none;
+	width: 140px;
+	margin: 0 auto;
+}
+
+.contacts__info {
+	margin-left: 45px;
+}
+
+.contacts__skype,
+.contacts__icq,
+.contacts__email,
+.contacts__phone {
+	display: flex;
+	align-items: center;
+	color: $white;
+	font-family: $font-arial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-bottom: 18px;
+}
+
+.contacts__skype img,
+.contacts__icq img,
+.contacts__email img,
+.contacts__phone img {
+	padding-right: 5px;
+}
+
+.contacts__social {
+	padding-top: 16px;
+	font-family: SocialIco, sans-serif;
+	color: $white;
+	font-size: 60px;
+	line-height: 44px;
+}
+
+.copyright {
+	background-color: $smoky-white;
+	font-family: $font-arial;
+	text-align: center;
+	color: $blue-blue;
+	height: 26px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 26px;
+}

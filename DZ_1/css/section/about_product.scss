@@ -1,0 +1,36 @@
+/*About your product section*/
+
+.about-product-wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 344px;
+}
+
+.about-product__left {
+	max-width: 650px;
+}
+
+.title {
+	color: $blue-blue;
+	font-family: $font-arial;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.about-product__title {
+	margin: 45px 0 28px;
+}
+
+.about-product__left p {
+	color: #333333;
+	font-family: $font-arial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.about-product__right {
+	margin-top: 50px;
+}

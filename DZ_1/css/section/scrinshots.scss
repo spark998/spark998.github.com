@@ -1,0 +1,39 @@
+/*Scrinshots section*/
+
+.scrinshots {
+	margin-bottom: 22px;
+}
+
+.scrinshots__title {
+	text-align: center;
+	margin: 48px 0 32px;
+}
+
+.scrinshots-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.scrinshots__item {
+	width: 575px;
+	margin-bottom: 28px;
+}
+
+.scrinshots__img {
+	float: left;
+	padding-right: 15px;
+}
+
+.scrinshots__item-title {
+	font-size: 24px;
+}
+
+.scrinshot__description p {
+	color: #333333;
+	font-family: $font-arial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0;
+}

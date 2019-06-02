@@ -1,0 +1,88 @@
+/*Buy section*/
+
+.buy__title {
+	text-align: center;
+	padding: 45px 0 27px;
+}
+
+.buy__buy-items {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 25px;
+}
+
+.buy__buy-item {
+	background-color: $blue-blue;
+	width: 300px;
+	border-radius: 4px;
+	padding-bottom: 20px;
+	margin-left: 45px;
+	margin-bottom: 25px;
+}
+
+.buy-item__title {
+	color: $white;
+	text-align: center;
+	font-family: $font-arial;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 15px 0 15px;
+}
+
+.buy-item__price {
+	color: $blue-blue;
+	background-color: $white;
+	text-align: center;
+	border: 2px solid $blue-blue;
+	padding: 18px 0 18px;
+	font-family: $font-arial;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.buy-item__text {
+	color: $white;
+	font-family: $font-arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 17px 0;
+}
+
+.button {
+	display: block;
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 2px solid $white;
+	background-color: $white;
+	font-family: $font-arial;
+	color: $blue-blue;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all .3s;
+
+	&:hover {
+		background-color: $light-grey;
+	}
+
+	&:active {
+		background-color: $blue-blue;
+		color: $white;
+	}
+}
+
+.buy-item__button {
+	margin: 0 20px 0 20px;
+}

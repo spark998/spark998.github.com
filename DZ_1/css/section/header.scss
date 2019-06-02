@@ -1,0 +1,39 @@
+/*Header section*/
+
+.header {
+	background-color: $blue-blue;
+	min-height: 325px;
+}
+
+.header-wrap {
+	display: flex;
+  	justify-content: space-between;
+	height: 100%;
+}
+
+.header-left {
+	margin-bottom: 45px;
+}
+
+.header-left__title {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: $white;
+	font-family: $font-arial;
+	font-size: 60px;
+	font-weight: 400;
+	margin: 42px 0 37px 0;
+}
+
+.header-left__list {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: $white;
+	font-family: $font-arial;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	list-style: inside url("../../images/check_icon.png");
+}
+
+.header-right {
+	margin-top: 50px;
+}
